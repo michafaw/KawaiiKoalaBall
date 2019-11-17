@@ -3,3 +3,5 @@
 
 speed = carBounceSpeed
 direction = 135
+
+scrPlayKoalaBounceSound(self);

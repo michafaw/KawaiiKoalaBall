@@ -4,6 +4,8 @@
 var topBounceHorizontalNudge = 1;
 var needsTopBounceHorizontalNudge = false;
 
+scrPlayKoalaBounceSound(self);
+
 var rightCollision = other.bbox_right > bbox_left && other.bbox_right < bbox_right;
 var leftCollision = other.bbox_left > bbox_left && other.bbox_left < bbox_right;
 var topCollision = other.bbox_top > bbox_top && other.bbox_top < bbox_bottom;
@@ -20,7 +22,7 @@ if(topCollision && rightCollision && y < other.bbox_top) {
 	// Give it a small bit of additional horizontal movement if it's mostly bouncing vertically
 	if(abs(hspeed) < 1)
 		needsTopBounceHorizontalNudge = true
-	show_debug_message("Debug - Bounce up, off of the top right side");	
+	//show_debug_message("Debug - Bounce up, off of the top right side");	
 } else if(topCollision && leftCollision && y < other.bbox_top) {
 	// Bounce left, off of the top left side
 	hspeed = -abs(hspeed)
@@ -30,14 +32,14 @@ if(topCollision && rightCollision && y < other.bbox_top) {
 	// Give it a small bit of additional horizontal movement if it's mostly bouncing vertically
 	if(abs(hspeed) < 1)
 		needsTopBounceHorizontalNudge = true
-	show_debug_message("Debug - Bounce up, off of the top left side");	
+	//show_debug_message("Debug - Bounce up, off of the top left side");	
 } else if(topCollision) {
 	// Bounce up, off of the top side
 	vspeed = -abs(vspeed)
 	// Give it a small bit of additional horizontal movement if it's mostly bouncing vertically
 	if(abs(hspeed) < 1)
 		needsTopBounceHorizontalNudge = true
-	show_debug_message("Debug - Bounce up, off of the top side");
+	//show_debug_message("Debug - Bounce up, off of the top side");
 } else if(rightCollision) {
 	// Bounce right, off of the right side
 	hspeed = abs(hspeed)
@@ -56,5 +58,5 @@ if(needsTopBounceHorizontalNudge) {
 		hspeed -= topBounceHorizontalNudge;
 	else
 		hspeed += choose(topBounceHorizontalNudge, -topBounceHorizontalNudge);
-	show_debug_message("Debug - Bumping hspeed to " + string(hspeed) + " - x/other.x: " + string(x) + "/" + string(other.x));
+	//show_debug_message("Debug - Bumping hspeed to " + string(hspeed) + " - x/other.x: " + string(x) + "/" + string(other.x));
 }

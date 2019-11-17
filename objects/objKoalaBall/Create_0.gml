@@ -8,3 +8,5 @@ gravity = baseGravity;
 carBounceSpeed = 12;
 
 maxSpeed = 15;
+
+currentSound = noone;

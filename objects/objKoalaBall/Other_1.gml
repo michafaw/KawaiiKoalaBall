@@ -5,8 +5,12 @@
 var rightCollision = bbox_right > room_width;
 var leftCollision = bbox_left < 0;
 
-if(rightCollision)
+if(rightCollision) {
 	hspeed = -abs(hspeed)
+	//scrPlayKoalaBounceSound(self);
+}
 	
-if(leftCollision)
+if(leftCollision) {
 	hspeed = abs(hspeed)
+	//scrPlayKoalaBounceSound(self);
+}
