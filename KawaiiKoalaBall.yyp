@@ -223,6 +223,14 @@
             }
         },
         {
+            "Key": "a9a0cfb6-f839-4642-b630-a91197378c89",
+            "Value": {
+                "id": "392a559a-ab6b-40f1-a0f6-74fbc33d7ce5",
+                "resourcePath": "sprites\/sprNetCollision\/sprNetCollision.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "acd4ea5b-d974-4753-bc38-e338f8aa1de6",
             "Value": {
                 "id": "73d703f5-4c90-47f5-9fdf-d3808c00252a",
