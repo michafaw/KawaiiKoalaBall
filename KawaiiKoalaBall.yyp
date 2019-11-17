@@ -103,6 +103,14 @@
             }
         },
         {
+            "Key": "2ddfc3de-d5c4-4eea-92b5-095cf49fddcf",
+            "Value": {
+                "id": "07e91945-056f-4a3c-b66b-7631a2c0574e",
+                "resourcePath": "paths\/pathRightClimbingKoala\/pathRightClimbingKoala.yy",
+                "resourceType": "GMPath"
+            }
+        },
+        {
             "Key": "322c9ee0-bbae-4c28-afc7-ab1714007d7c",
             "Value": {
                 "id": "4da8f3f8-882e-484a-b123-b8ab34d44c77",
@@ -503,6 +511,22 @@
             }
         },
         {
+            "Key": "d53d0fa4-fec9-48a3-8bb9-516aca25375e",
+            "Value": {
+                "id": "bb8e4a5d-b5d0-420c-84d8-d8431512ded0",
+                "resourcePath": "objects\/objClimbingKoala\/objClimbingKoala.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "d7a820c6-cc11-4d36-aeb6-05726044767c",
+            "Value": {
+                "id": "51f9b771-b085-412c-b6c1-439762380830",
+                "resourcePath": "paths\/pathLeftClimbingKoala\/pathLeftClimbingKoala.yy",
+                "resourceType": "GMPath"
+            }
+        },
+        {
             "Key": "d9d6af3f-021f-488f-86ed-9dc26b16cad4",
             "Value": {
                 "id": "0d36e3a1-d967-43f9-af05-004407d01985",
@@ -596,6 +620,14 @@
                 "id": "25bb0ee7-ba60-4f15-8dec-c6d27e41a5bb",
                 "resourcePath": "views\/f71d03b2-c1e2-4890-a939-3310e89b32de.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "f9fb40ee-977b-4407-964e-04a59ff66bb7",
+            "Value": {
+                "id": "a86f8e1e-1c53-4f0d-90fd-36d180f4bd4b",
+                "resourcePath": "sprites\/sprClimbingKoala\/sprClimbingKoala.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
