@@ -5,6 +5,6 @@ baseGravity = 0.08;
 gravity_direction = 270;
 gravity = baseGravity;
 
-carBounceSpeed = 10;
+carBounceSpeed = 12;
 
 maxSpeed = 15;

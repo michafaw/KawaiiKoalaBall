@@ -1,5 +1,12 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-// Fix this so it goes back toward the middle (so it doesn't oscillate when past the edge)  --  Micha TODO
-hspeed = -hspeed;
+
+var rightCollision = bbox_right > room_width;
+var leftCollision = bbox_left < 0;
+
+if(rightCollision)
+	hspeed = -abs(hspeed)
+	
+if(leftCollision)
+	hspeed = abs(hspeed)
