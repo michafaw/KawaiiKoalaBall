@@ -9,5 +9,6 @@ else
 	
 show_debug_message("Score: " + string(global.leftScore) + "-" + string(global.rightScore))
 
-instance_destroy();
+scrCheckScore();
 
+instance_destroy();
