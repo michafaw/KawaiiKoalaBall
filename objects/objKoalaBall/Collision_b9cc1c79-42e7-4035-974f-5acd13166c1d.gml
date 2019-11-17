@@ -2,7 +2,7 @@
 // You can write your code in this editor
 
 scrPlaySound(Koala_Ground_Thud, false);
-if(x > room_speed/2)
+if(x > room_width/2)
 	global.leftScore++;
 else
 	global.rightScore++;

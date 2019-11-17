@@ -431,6 +431,14 @@
             }
         },
         {
+            "Key": "d9ec4db5-606e-44d9-89de-f15a4156e5d4",
+            "Value": {
+                "id": "6d99fe7c-706d-441d-8fbe-e95336536041",
+                "resourcePath": "scripts\/scrBounceKoalaBallOnCar\/scrBounceKoalaBallOnCar.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "db283502-fc54-4127-b097-dd6d85e92b3c",
             "Value": {
                 "id": "20f0e2a7-0713-4450-8422-5aec2e0791f3",
@@ -468,6 +476,14 @@
                 "id": "4ac5d326-59c4-4703-a2d1-2a7dd6dec62d",
                 "resourcePath": "options\/android\/options_android.yy",
                 "resourceType": "GMAndroidOptions"
+            }
+        },
+        {
+            "Key": "e9a49527-af35-4178-af58-0b954f8a1491",
+            "Value": {
+                "id": "dc030762-af5f-4124-aed5-501e623a6079",
+                "resourcePath": "views\/e9a49527-af35-4178-af58-0b954f8a1491.yy",
+                "resourceType": "GMFolder"
             }
         },
         {
@@ -512,12 +528,13 @@
         }
     ],
     "script_order": [
-        "9e18ca49-d5e5-40d0-8efb-16daa5fb87a2",
-        "de0c5d1e-bb75-4452-977d-0d6da6a22aaf",
         "fb8abf29-1cd5-489b-8a58-b670b0505f91",
         "1e259306-7b6a-43e5-b8fa-fa69096b50d0",
         "009d567b-6c0b-4335-83b3-864a110fee03",
-        "e1d19cb1-e0f9-4c95-a495-5a0549ef69ed"
+        "9e18ca49-d5e5-40d0-8efb-16daa5fb87a2",
+        "e1d19cb1-e0f9-4c95-a495-5a0549ef69ed",
+        "de0c5d1e-bb75-4452-977d-0d6da6a22aaf",
+        "d9ec4db5-606e-44d9-89de-f15a4156e5d4"
     ],
     "tutorial": ""
 }
