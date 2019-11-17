@@ -2,6 +2,7 @@
 // You can write your code in this editor
 
 speed = 0;
+image_angle = 0;
 
 if (x - sprite_get_xoffset(sprite_index) < 0)
 	x = sprite_get_xoffset(sprite_index);

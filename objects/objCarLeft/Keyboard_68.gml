@@ -4,3 +4,6 @@
 var newSpeed = speed + acceleration
 
 speed = clamp(newSpeed, -maxSpeed, maxSpeed)
+
+sandCloudInstance.visible = true;
+sandCloudInstance.image_xscale = -1.0;
