@@ -351,6 +351,14 @@
             }
         },
         {
+            "Key": "a5c1a0a0-8991-463b-b521-b09f4ea72fce",
+            "Value": {
+                "id": "6863deda-295e-47e4-9240-3af69de0b1c4",
+                "resourcePath": "sounds\/musMainTheme\/musMainTheme.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "a9188620-a624-4a5a-83ae-a1b53faf038b",
             "Value": {
                 "id": "557aae76-ee70-49c4-abb7-befef94c2638",
