@@ -74,7 +74,7 @@
             "Key": "1853fe4f-895d-4982-a96d-cde369e8b930",
             "Value": {
                 "id": "d2fb6ae8-8c96-4619-a6a0-f3c5194578b5",
-                "resourcePath": "sounds\/Car_Movement_B\/Car_Movement_B.yy",
+                "resourcePath": "sounds\/Car_Movement_B_DuplicateOfA\/Car_Movement_B_DuplicateOfA.yy",
                 "resourceType": "GMSound"
             }
         },
@@ -155,6 +155,14 @@
             "Value": {
                 "id": "f1d835bf-0d78-47bb-87e9-856bc699ee66",
                 "resourcePath": "objects\/objCarLeft\/objCarLeft.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "546d664e-2ec3-4c4f-a915-fe567e15ffc3",
+            "Value": {
+                "id": "4b6af7b7-5ee4-4e04-b5de-80674a00c05a",
+                "resourcePath": "objects\/objPRActionObject\/objPRActionObject.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -316,6 +324,14 @@
                 "id": "392a559a-ab6b-40f1-a0f6-74fbc33d7ce5",
                 "resourcePath": "sprites\/sprNetCollision\/sprNetCollision.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "aa208a79-149b-4f4b-baa8-0d85f219c062",
+            "Value": {
+                "id": "25dc1aeb-03e0-48a8-8c9e-7325962c4b89",
+                "resourcePath": "extensions\/PRAction\/PRAction.yy",
+                "resourceType": "GMExtension"
             }
         },
         {

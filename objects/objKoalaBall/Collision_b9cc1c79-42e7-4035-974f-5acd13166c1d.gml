@@ -6,5 +6,8 @@ if(x > room_speed/2)
 	global.leftScore++;
 else
 	global.rightScore++;
+	
+show_debug_message("Score: " + string(global.leftScore) + "-" + string(global.rightScore))
 
 instance_destroy();
+

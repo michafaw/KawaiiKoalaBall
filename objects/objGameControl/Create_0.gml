@@ -1,6 +1,8 @@
 /// @description Insert description here
 // You can write your code in this editor
 
+event_inherited();
+
 addKoalaTimerMin = 3*room_speed
 addKoalaTimerMax = 4*room_speed
 if(FOUNTAIN_MODE || RAIN_MODE) {
