@@ -17,3 +17,6 @@ global.koalaSpawnRate = 2.0
 
 audio_play_sound(Car_Idle, 90, true);
 
+currentWaveSound = Waves_A;
+currentBreezeSound = Sandy_Breeze_A;
+

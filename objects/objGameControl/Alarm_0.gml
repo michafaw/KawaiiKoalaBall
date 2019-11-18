@@ -8,8 +8,10 @@ if(FOUNTAIN_MODE && !RAIN_MODE)
 xx = path_get_x(pathKoalaDrop, pathPosition)
 yy = path_get_y(pathKoalaDrop, pathPosition)
 
-
-scrCreateKoalaBall(xx, yy);
+if(random(1.0) < 0.875)
+	scrCreateKoalaBall(xx, yy);
+else
+	scrCreatePresent(xx, yy);
 
 var respawnTime = irandom_range(addKoalaTimerMin, addKoalaTimerMax);
 if(global.koalaSpawnRate > 0)
